@@ -18,6 +18,6 @@ Vision Transformer(ViT)에 대한 간단한 직관:
 
 실험: visdom 라이브러리로 시각화
 ![image](https://github.com/user-attachments/assets/6ae9f0b3-5cff-40a0-93a6-fe854d2632c6)
-1. Transformer encoder 1개
-2. Transformer encoder 4개: validation accuracy 81.6200%
+1. Transformer encoder 1개: validation accuracy 66.8%
+2. Transformer encoder 4개: validation accuracy 81.6%
 
