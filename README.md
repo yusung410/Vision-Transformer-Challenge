@@ -1,4 +1,4 @@
-목표: Vision Transformer 모델을 사전학습 없이, Cifar10 데이터셋에 대해 Validation accuracy 90% 달성
+목표: Vision Transformer 모델을 사전학습 없이, Cifar10 데이터셋에 대해 Image Classification task를 학습 -> Validation accuracy 90% 달성
 
 Vision Transformer(ViT)에 대한 간단한 직관:
 1. Transformer가 문장에서 단어를 각각의 토큰으로 취급하여, Self-attention 메커니즘을 통해 context에 따른 단어 사이의 관계를 파악함
