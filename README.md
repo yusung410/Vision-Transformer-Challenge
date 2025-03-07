@@ -1,6 +1,6 @@
 목표: Vision Transformer 모델을 사전학습 없이, Cifar10 데이터셋에 대해 Validation accuracy 90% 달성
 
-Vision Transformer(ViT)에 대한 간단한 직관:
+Vision Transformer(ViT)에 대한 간단한 직관: \n
 Transformer가 문장에서 단어를 각각의 토큰으로 취급하여, Self-attention 메커니즘을 통해 context에 따른 단어 사이의 관계를 파악함
 Vision Transformer는 이미지를 패치 단위로 쪼개고, 단어가 아니라 패치를 토큰으로 입력하여 Self-attention을 수행함
 CNN은 Convolution kernel이 이미지를 local receptive field의 방식으로 지역적인 정보들을 포착하는데 유리함
