@@ -20,5 +20,7 @@ Transformer는 이미지 전체 패치에 대해 Self-attention을 수행하기 
 Transformer encoder 1개
 ![image](https://github.com/user-attachments/assets/6ae9f0b3-5cff-40a0-93a6-fe854d2632c6)
 
+
+
 Transformer encoder 4개: validation accuracy 81.6200%
 
