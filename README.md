@@ -24,4 +24,5 @@ Vision Transformer(ViT)에 대한 간단한 직관:
 
 
 레퍼런스:
+[[DNN] VIT(vision transformer) 리뷰 및 코드구현(CIFAR10) (ICLR2021)]
 https://csm-kr.tistory.com/54
