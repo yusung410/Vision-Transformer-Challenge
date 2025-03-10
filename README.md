@@ -6,8 +6,8 @@ Vision Transformer(ViT)에 대한 간단한 직관:
 3. CNN은 Convolution kernel이 이미지를 local receptive field의 방식으로 지역적인 정보들을 포착하는데 유리함
 4. Transformer는 이미지 전체 패치에 대해 Self-attention을 수행하기 때문에 이미지 패치 사이의 global context를 포착하기 유리함
 5. 한계는 입력 토큰 길이의 제곱에 연산량이 비례함 (O(N^2))
-6. MLP로 class를 분류하는데, 마지막 MLP에서 class token의 prediction이 모델의 전체 시퀀스를 고려한 예측이다.
-
+6. Class token이 Self-attention을 거치며 이미지에서 전체 패치 정보를 통합하며, 이를 최종적으로 MLP로 분류하는 방식
+   
 구성 요소:
 ![image](https://github.com/user-attachments/assets/ac1dac91-b488-44fd-9250-11e77e09b286)
 1. patch_embed.py: 입력 이미지를 패치 단위로 쪼개고, linear projection하여 패치 임베딩을 만듦 -> class token과 positional encoding을 더해줌
