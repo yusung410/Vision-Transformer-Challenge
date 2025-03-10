@@ -23,3 +23,5 @@ Vision Transformer(ViT)에 대한 간단한 직관:
 ![image](https://github.com/user-attachments/assets/6ae9f0b3-5cff-40a0-93a6-fe854d2632c6)
 
 
+레퍼런스:
+https://csm-kr.tistory.com/54
